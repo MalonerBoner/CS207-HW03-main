@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class MyString {
 
     private String original;
@@ -17,5 +19,12 @@ public class MyString {
         String noVowelStr = this.original.replaceAll("[aAeEiIoOuU]", "");
 
         return noVowelStr;
+    }
+
+    public String removeNonVowels(){
+
+        String vowelsOnly = this.original.replaceAll("[^aAeEiIoOuU]", "");
+
+        return vowelsOnly;
     }
 }

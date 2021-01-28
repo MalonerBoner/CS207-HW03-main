@@ -29,17 +29,17 @@ public class MyStringTest {
         assertEquals("nymphly", myStr2.getOriginal());
     }
 
-    /*@Test
+    @Test
     void removeNonVowels_shouldRemoveAllConsonantsFromOriginal() {
         MyString myStr1 = new MyString("ThE quick Brown fOx jumps oVer the lAzy dog");
         assertEquals("EuioOuoeeAo", myStr1.removeNonVowels());
         assertEquals("ThE quick Brown fOx jumps oVer the lAzy dog", myStr1.getOriginal());
-    }*/
+    }
 
-    /*@Test
+    @Test
     void removeNonVowels_shouldNotRemoveNonVowelsIfNoneExist() {
         MyString myStr2 = new MyString("Euouae");
         assertEquals("Euouae", myStr2.removeNonVowels());
         assertEquals("Euouae", myStr2.getOriginal());
-    }*/
+    }
 }
