@@ -7,13 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(MockitoExtension.class)
 public class MyStringTest {
 
-    /*@Test
+    @Test
     void shouldInitializeInstanceVariable() {
         MyString myStr1 = new MyString("banana");
         MyString myStr2 = new MyString("epoxy");
         assertEquals("banana", myStr1.getOriginal());
         assertEquals("epoxy", myStr2.getOriginal());
-    }*/
+    }
 
     /*@Test
     void removeVowels_shouldRemoveAllVowelsFromOriginal() {
