@@ -12,4 +12,10 @@ public class MyString {
         return this.original;
     }
 
+    public String removeVowels(){
+
+        String noVowelStr = this.original.replaceAll("[aAeEiIoOuU]", "");
+
+        return noVowelStr;
+    }
 }

@@ -15,19 +15,19 @@ public class MyStringTest {
         assertEquals("epoxy", myStr2.getOriginal());
     }
 
-    /*@Test
+    @Test
     void removeVowels_shouldRemoveAllVowelsFromOriginal() {
         MyString myStr1 = new MyString("ThE quick Brown fOx jumps oVer the lAzy dog");
         assertEquals("Th qck Brwn fx jmps Vr th lzy dg", myStr1.removeVowels());
         assertEquals("ThE quick Brown fOx jumps oVer the lAzy dog", myStr1.getOriginal());
-    }*/
+    }
 
-    /*@Test
+    @Test
     void removeVowels_shouldNotRemoveVowelsIfNoneExist() {
         MyString myStr2 = new MyString("nymphly");
         assertEquals("nymphly", myStr2.removeVowels());
         assertEquals("nymphly", myStr2.getOriginal());
-    }*/
+    }
 
     /*@Test
     void removeNonVowels_shouldRemoveAllConsonantsFromOriginal() {
