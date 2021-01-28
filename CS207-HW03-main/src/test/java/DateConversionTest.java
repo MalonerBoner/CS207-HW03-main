@@ -13,22 +13,22 @@ public class DateConversionTest {
         assertEquals("20th Oct 2052", sc.getDate());
     }
 
-    /*@Test
+    @Test
     void reformatDate_shouldReformatDate() {
         DateConversion sc = new DateConversion("20th Oct 2052");
         assertEquals("2052-Oct-20", sc.reformatDate());
-    }*/
+    }
 
-    /*@Test
+    @Test
     void reformatDate_shouldReformatDateWithSingleDay() {
         DateConversion sc = new DateConversion("1st May 1933");
         assertEquals("1933-May-1", sc.reformatDate());
-    }*/
+    }
 
-    /*@Test
+    @Test
     void reformatDate_shouldReformatDateWithDifferentDayEnding() {
         DateConversion sc = new DateConversion("3rd June 2011");
-        assertEquals("2011-June-3", sc.reformatDate());
-    }*/
+        assertEquals("2011-Jun-3", sc.reformatDate());
+    }
 
 }
