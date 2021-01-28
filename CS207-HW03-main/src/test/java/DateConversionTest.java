@@ -7,11 +7,11 @@ import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith(MockitoExtension.class)
 public class DateConversionTest {
 
-    /*@Test
+    @Test
     void shouldInitializeInstanceVariable() {
         DateConversion sc = new DateConversion("20th Oct 2052");
         assertEquals("20th Oct 2052", sc.getDate());
-    }*/
+    }
 
     /*@Test
     void reformatDate_shouldReformatDate() {
