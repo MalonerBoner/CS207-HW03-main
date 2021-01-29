@@ -6,11 +6,8 @@ public class StringChecks {
 
         boolean result = false;
 
-        String formerHalf = "";
-        String latterHalf = "";
-
-        formerHalf = str.substring(0, str.length() / 2);
-        latterHalf = str.substring(str.length() / 2);
+        String formerHalf = new String(str.substring(0, str.length() / 2));
+        String latterHalf = new String(str.substring(str.length() / 2));
 
         String [] first = formerHalf.split("[^aAeEiIoOuU]");
         String [] second = latterHalf.split("[^aAeEiIoOuU]");
@@ -20,4 +17,6 @@ public class StringChecks {
 
         return result;
     }
+
+
 }
