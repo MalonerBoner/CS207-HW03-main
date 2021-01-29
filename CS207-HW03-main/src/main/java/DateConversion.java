@@ -4,7 +4,7 @@ public class DateConversion {
 
     public DateConversion(String date){
 
-        this.date = date.replace("June", "Jun");;
+        this.date = date.replace("June", "Jun");
     }
 
     public String getDate(){

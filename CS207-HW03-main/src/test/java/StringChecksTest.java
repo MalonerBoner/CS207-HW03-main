@@ -7,19 +7,19 @@ import static org.junit.jupiter.api.Assertions.*;
 @ExtendWith(MockitoExtension.class)
 public class StringChecksTest {
 
-    /*@Test
+    @Test
     void sameSides_shouldReturnTrueForSameNumberOfVowels() {
         assertTrue(StringChecks.sameSides("stYx"));
         assertTrue(StringChecks.sameSides("aE"));
         assertTrue(StringChecks.sameSides("eUlogiAe"));
-    }*/
+    }
 
-    /*@Test
+    @Test
     void sameSides_shouldReturnFalseForDifferentNumberOfVowels() {
         assertFalse(StringChecks.sameSides("Hippopotamus"));
         assertFalse(StringChecks.sameSides("af"));
         assertFalse(StringChecks.sameSides("EpopoeIa"));
-    }*/
+    }
 
     /*@Test
     void anagram_shouldHaveSameLettersButDifferentLengths() {
