@@ -21,28 +21,28 @@ public class StringChecksTest {
         assertFalse(StringChecks.sameSides("EpopoeIa"));
     }
 
-    /*@Test
+    @Test
     void anagram_shouldHaveSameLettersButDifferentLengths() {
         assertFalse(StringChecks.anagram("banana", "bananab"));
-    }*/
+    }
 
-    /*@Test
+    @Test
     void anagram_shouldHaveSameLengthAndSimilarLettersButDifferentCounts() {
         assertFalse(StringChecks.anagram("happy", "phahy"));
-    }*/
+    }
 
-    /*@Test
+    @Test
     void anagram_shouldHaveDifferentLengthsSwapParams() {
         assertFalse(StringChecks.anagram("happ", "happy"));
-    }*/
+    }
 
-    /*@Test
+    @Test
     void anagram_shouldBeAnagrams() {
         assertTrue(StringChecks.anagram("orchestra", "carthorse"));
-    }*/
+    }
 
-    /*@Test
+    @Test
     void anagram_shouldBeAnagramsWithSameStartingLetter() {
         assertTrue(StringChecks.anagram("parliament", "partialmen"));
-    }*/
+    }
 }
